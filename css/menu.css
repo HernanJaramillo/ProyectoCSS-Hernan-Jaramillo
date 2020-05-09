@@ -1,0 +1,44 @@
+ul li{
+    display: inline-flex;
+    
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+
+/*-----------Para Tablet----------*/
+
+@media (min-width:768px){
+  
+    nav{
+     float: left;
+     
+    }
+
+    ul li{
+        margin: 20px 20px 0px 0px;
+    }
+
+}
+
+
+
+
+/*-----------Tamano Escritorio----------*/
+
+
+@media (min-width:1024px){
+  
+    nav{
+     float: left;
+     
+    }
+
+    ul li{
+        margin: 20px;
+    }
+
+}

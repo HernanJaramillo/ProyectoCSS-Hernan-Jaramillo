@@ -1,0 +1,81 @@
+.contenido{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+overflow: hidden;
+}
+
+.imagen-principal{
+    
+margin: 15px;
+display: none;
+
+}
+
+.descripcion, .imagen-secundaria{
+    
+    margin: 15px;
+    
+}
+
+
+
+.contenido img{
+    width: auto;
+    max-width: 280px;
+    border-radius: 20px;
+}
+
+.imagen-principal:hover img{
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+}
+
+.imagen-secundaria:hover img{
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+}
+
+.contenido h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.contenido p{
+    text-align: center;
+}
+
+#playa{
+    background-color: rgb(238, 228, 228);
+}
+
+
+#rio{
+    background-color: rgb(219, 200, 200);
+}
+#parque{
+    background-color: rgb(223, 231, 235);
+  }
+
+  
+
+  @media (min-width:768px){
+
+    .descripcion, .imagen-secundaria{
+        width: 45%;
+        text-align: center;
+        }
+        
+        
+  }
+
+  @media (min-width:1024px){
+    .imagen-principal, .descripcion, .imagen-secundaria{
+        width: 30%;
+        display: inline-block;
+        text-align: center;
+        }
+        .contenido{
+            width: auto;
+        }
+      
+              
+  }

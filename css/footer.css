@@ -1,0 +1,57 @@
+footer{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.informacion{
+    
+    text-align: center;
+    
+}
+
+.contacto{
+    border: 1px solid blue;
+
+}
+
+.contacto{
+  margin: 15px;
+  width: 80%;
+  background-color: rgb(219, 200, 200);
+  padding: 20px;
+  border: 2px solid rgba(197, 46, 46, 0.2);
+  border-radius: 10px;
+  
+}
+
+h3, p, textarea, label, input{
+  width: 100%;
+ 
+}
+label{
+  text-align: left;
+  
+}
+button{
+  border-radius: 5px;
+  background-color: rgb(228, 148, 148);
+}
+
+@media (min-width:768px){
+    footer{
+        width: auto;
+    }
+    .informacion, .contacto{
+     width: 40%;
+     margin:  25px;
+    }
+    
+}
+
+@media (min-width:1024px){
+    .informacion {
+    text-align: left;
+    }
+    
+}

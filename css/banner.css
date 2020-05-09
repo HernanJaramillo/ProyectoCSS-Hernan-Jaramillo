@@ -1,0 +1,28 @@
+.principal{
+    margin-top: 80px;
+    position: relative;
+    border: 2px solid orange;
+}
+
+.principal img{
+    width: 100%;
+    height: 100%;
+}
+
+.principal .contenido{
+  position: absolute; 
+  
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: rgba(214, 206, 206, 0.4);
+}
+
+.principal .contenido h2{
+    font-size: 18px;
+    text-align: left;
+}
+.principal .contenido p{
+    font-size: 12px;
+    text-align: left;
+}
