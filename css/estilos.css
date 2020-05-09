@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url(menu.css);
+@import url(banner.css);
+@import url(contenido.css);
+@import url(footer.css);
+
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+form,
+footer,
+header,
+menu,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+header{
+  width: 100%;
+  height: 70px;
+  border: 1px solid black;
+  background-color: chocolate;
+  text-align: center;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  /*left: 0;*/
+  /*z-index: 100;*/
+  /*display: table;*/
+}
+
+@media (min-width:764px){
+  h1{
+    float: left;
+  }
+}
+
+@media (min-width:1240px){
+  h1{
+    float: left;
+  }
+}
